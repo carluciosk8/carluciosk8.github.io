@@ -30,7 +30,7 @@ WMSX = {
     CARTRIDGE2_FORMAT:              "",
 
     // BASIC loading/typing commands. Not needed for AUTOEXEC.BAS, AUTOEXEC.BAT or Tape Images
-    BASIC_RUN:                      "",
+    BASIC_RUN:                      "xduel.bas",
     BASIC_LOAD:                     "",
     BASIC_BRUN:                     "",
     BASIC_BLOAD:                    "",
