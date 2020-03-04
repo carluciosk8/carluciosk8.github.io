@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>WebMSX/index.html at master · ppeccin/WebMSX</title>
+  <title>WebMSX/wmsx.js at master · ppeccin/WebMSX</title>
     <meta name="description" content="WebMSX - Online MSX Emulator. Contribute to ppeccin/WebMSX development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/714144?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="ppeccin/WebMSX" /><meta property="og:url" content="https://github.com/ppeccin/WebMSX" /><meta property="og:description" content="WebMSX - Online MSX Emulator. Contribute to ppeccin/WebMSX development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTA2MjU4NzIzOjNkMTNjOWYzOWQ1YjQxM2YxOTg4MjJiMTg2ZTFiNWQ5ZTE1OGIyOWY1ZTg0NTRhMWYxNWUyODEwNzY3NjQ4NzY=--40d4389dea9e7112121afa1378f643740a4b377a">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTA2MjU4NzIzOjNiNTJjOTNmMjU3MzUyZGY5OTgxYWFhMzA3ZGM2Y2M4MWNjMjIxNmI2YjAzYjRhMDQyNmVlZmE0YTY1YTY1ZjM=--bb2392a2ccd831d5bd85948efec20e83668bacd2">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="D477:5B12:44FFE:599A9:5E5EF6D0" data-pjax-transient="true" /><meta name="html-safe-nonce" content="096dc10175b18b809912649cef0074debc9eda22" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9wcGVjY2luL1dlYk1TWC90cmVlL21hc3Rlci9yZWxlYXNlL3N0YWJsZS81LjQvZW1iZWRkZWQiLCJyZXF1ZXN0X2lkIjoiRDQ3Nzo1QjEyOjQ0RkZFOjU5OUE5OjVFNUVGNkQwIiwidmlzaXRvcl9pZCI6Ijc1NDkyOTc3NDE4MTgyNzAyMDMiLCJyZWdpb25fZWRnZSI6InNhLWVhc3QtMSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="04fb3d5731880b58aebec7c903f8e0c20899ad79c3d835558a04b97d7db7af93" data-pjax-transient="true" />
+  <meta name="request-id" content="D477:5B12:44ECB:5998D:5E5EF6CF" data-pjax-transient="true" /><meta name="html-safe-nonce" content="096dc10175b18b809912649cef0074debc9eda22" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9wcGVjY2luL1dlYk1TWC90cmVlL21hc3Rlci9yZWxlYXNlL3N0YWJsZS81LjQvZW1iZWRkZWQiLCJyZXF1ZXN0X2lkIjoiRDQ3Nzo1QjEyOjQ0RUNCOjU5OThEOjVFNUVGNkNGIiwidmlzaXRvcl9pZCI6Ijc1NDkyOTc3NDE4MTgyNzAyMDMiLCJyZWdpb25fZWRnZSI6InNhLWVhc3QtMSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="e488366e77838c3a6aa64961ac83ac987ab8e26825fba524b9ccdb7f0a5d635b" data-pjax-transient="true" />
 
 
 
@@ -76,7 +76,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="ZWNjYTUyZTU4ZmEzM2Q5N2VjNzhmYjljYWFkNjZjNjAyMTU4NzJmYTMyOTg3NGI3YjNhMjE4NmY5MjBkNTZkNHx7InJlbW90ZV9hZGRyZXNzIjoiMTc3LjIwOC40My4yNDgiLCJyZXF1ZXN0X2lkIjoiRDQ3Nzo1QjEyOjQ0RkZFOjU5OUE5OjVFNUVGNkQwIiwidGltZXN0YW1wIjoxNTgzMjgxODg0LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="N2E2OTc0OTNhNGJmMWI5NWE5YmMyZTllZDc1ZTc5ZTdiODE5YjdlMGEzMjU2MDIwY2MxMWJiMGE5NWMzYWIzOXx7InJlbW90ZV9hZGRyZXNzIjoiMTc3LjIwOC40My4yNDgiLCJyZXF1ZXN0X2lkIjoiRDQ3Nzo1QjEyOjQ0RUNCOjU5OThEOjVFNUVGNkNGIiwidGltZXN0YW1wIjoxNTgzMjgxODcyLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
@@ -90,7 +90,7 @@
   <meta name="octolytics-dimension-user_id" content="714144" /><meta name="octolytics-dimension-user_login" content="ppeccin" /><meta name="octolytics-dimension-repository_id" content="36111787" /><meta name="octolytics-dimension-repository_nwo" content="ppeccin/WebMSX" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="36111787" /><meta name="octolytics-dimension-repository_network_root_nwo" content="ppeccin/WebMSX" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/index.html" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -163,7 +163,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="o09z0WPUC838QsgLoVDiDzsM4K/mzJpD/lgoyfJ2M/36F+jZPMhBYIDacjt0K8N98u9ZXIqtCH0qyrAGkNnMSQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="wxlL7kQbR2duVqVTDv/0Ggv41i6JY+ctMvXDodJ8V1aaQdDmGwcNyhLOH2PbhNVowhtv3eUCdRPmZ1tusNOo4g==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -314,7 +314,7 @@
       <img class="avatar" height="20" width="20" alt="@carluciosk8" src="https://avatars0.githubusercontent.com/u/9093700?s=60&amp;v=4" />
       carluciosk8
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/4TdZFJz+ElqYOR9JceHAv+8EFnG/4KGn4giG5RwBz28pzFbs9i3B32cvOC0pyX4GotbFjtTOvrz2hya1K6PFw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="B3JsRiAjImePx3JHeMKcBSjKR9L9hOc2T+3lev4o8dtEUYB5wYhtKZg7Ktrpoj7/zf0MnQAoX0ojv9v7vvZ58Q==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -408,7 +408,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:714144,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:9093700,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/index.html&quot;}}" data-hydro-click-hmac="0914a9f36e9cf858a66a5f41da20e3338659e90627bb527a8d85fef1a9e17e5c">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:714144,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:9093700,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js&quot;}}" data-hydro-click-hmac="bf4f8427246d804e5bb6e36fe9e6bb30733c66963b2e2a2d9936ce1af8f6c050">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -435,7 +435,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="hkPWXi22e08HPnpMF6SB81Mi/4dpTmXAxxm+hngnl0+jAnDWvs6+kovVC2Wp+ZvhUwKgI0GX+oWpm0K2fnzXvA==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="Gfnla6Ix8yXUzXWNa7rVdPM4AOxus7ZjPr9EO8Fh44c8uEPjMUk2+FgmBKTV589m8xhfSEZqKSZQPbgLxzqjdA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -553,17 +553,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-03T22:01:24-03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-03T22:01:12-03:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-03T22:31:24-03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-03T22:31:12-03:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-04T01:31:24-03:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-04T01:31:12-03:00">
             in 4 hours
           </button>
         </li>
@@ -621,10 +621,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/carluciosk8/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/index.html&quot;,&quot;user_id&quot;:9093700}}"
-    data-feature-preview-close-hmac="aa49afec56576dc387d7297c6049ba11a5e46eea5098af1342a02875ea89285d"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/index.html&quot;,&quot;user_id&quot;:9093700}}"
-    data-hydro-click-hmac="c45f3cdded50cca57034759d0dc095a5dfdae8973f0a88c3c04fb85b8a49bdc2"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js&quot;,&quot;user_id&quot;:9093700}}"
+    data-feature-preview-close-hmac="2352f8289afd16c96c372e6bbabd0ababa867169c0aeab797a0f37026a5f1d61"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js&quot;,&quot;user_id&quot;:9093700}}"
+    data-hydro-click-hmac="2fa6ca70824c144ac44da8eae7ac1d18a76164da936c9cdaf8f8d083e5364e2d"
   >
     Feature preview
   </button>
@@ -633,12 +633,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="iaviqSSRLvDPD6S/RcbAMogll24Y7aYq9G31r0a3VIvKiA6WxTphvtjz/CLUpmLIbRLcIeVBHlaYP8suBmncoQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="uzVVR9e9CiubFnU9aZkULnsY8bOrQRgmA4JxNJrcNn74Frl4NhZFZYzqLaD4+bbUni+6/FbtoFpv0E+12gK+VA==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_48d3" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583281884098" class="form-control" /><input type="hidden" name="timestamp_secret" value="f74138dfb382bfa679bd7750d77634f4e3229ab9026611b8d3cf6e73a9f12679" class="form-control" />
+      <input type="text" name="required_field_b4c4" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583281872292" class="form-control" /><input type="hidden" name="timestamp_secret" value="dba1f11c95c63b8c2d9a4348c6f6654b18978c72d09f17d83ca000b91d25b3a4" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -709,10 +709,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1JTPnlwGg2vSGgWE8zS5h9pxBtT8GZjmKdlYo2ROqj5c71mJRsBNAYfkmpeJ1XP4qzS6bZ8w1nKPUfFwY4Yo5w==" />      <input type="hidden" name="repository_id" value="36111787">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="//X0ODZMfRenwW5tQe1QUEt3uPHXD6tGaSH2up58SXh3jmIvLIqzffI/8X47DJovOjIESLQm5dLPqV9pmbTLoQ==" />      <input type="hidden" name="repository_id" value="36111787">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:36111787,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/index.html&quot;,&quot;user_id&quot;:9093700}}" data-hydro-click-hmac="3bfaa1c7b817c93d2a3c9732c2de791ee5a198e58cef0f7319d0d4c3ced9414c" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:36111787,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js&quot;,&quot;user_id&quot;:9093700}}" data-hydro-click-hmac="7121e0b888eb44e04df7bc8a31caecf8263a9295144320d731fa36e9931d295f" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -783,9 +783,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/ppeccin/WebMSX/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LIQNK4FG/swl3kmBIfaYeD0wsaCdn93jiOebRBJmMjkx6P3B1JrCyCL9H8b/1Mdg2gLWIWKcYylTB9GVwQFGUg==" />
+    <form class="starred js-social-form" action="/ppeccin/WebMSX/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2Y40HurBrP5+T1b+/MgfBOkJGzHwqe5sywUKaJ5qJirE4sT0vx2Q+nlsALki6kAcDjt8sA+qUKYQ5UC5TQ1SQQ==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar ppeccin/WebMSX" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:36111787,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/index.html&quot;,&quot;user_id&quot;:9093700}}" data-hydro-click-hmac="0d68791f61ef7522c94e5dd56179b575abd999156f3ec89fd92cef7d90df085d" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar ppeccin/WebMSX" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:36111787,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js&quot;,&quot;user_id&quot;:9093700}}" data-hydro-click-hmac="f4caf4e04cfbab11d9e7b2e48eef26ea263542cab655c4fbbe6194ce8fc89ae2" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/ppeccin/WebMSX/stargazers"
@@ -793,9 +793,9 @@
            218
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/ppeccin/WebMSX/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wKjnWsNf7mshQRhFNEiR7bc2V6XgOZau8m4Ooc8s8IybGYobsndiFwOqJmFn9GMH6EytFAWwsXw+H9kzOYg0WA==" />
+    <form class="unstarred js-social-form" action="/ppeccin/WebMSX/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YviDOb5TkZJpF+GQ2o0gd2qIr/WnvgN6Dd2nQoHQBVs5Se54z3sd7kv837SJMdKdNfJVREI3JKjBrHDQd3TBjw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star ppeccin/WebMSX" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:36111787,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/index.html&quot;,&quot;user_id&quot;:9093700}}" data-hydro-click-hmac="9e4740dd2a09bdd3651863bf61bf44a45d98c51e3f77a0332d474d2980eceb63" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star ppeccin/WebMSX" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:36111787,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js&quot;,&quot;user_id&quot;:9093700}}" data-hydro-click-hmac="c9ac03a273595d585a76c713c6f15e78ed693536079e61eb7a52358622d80859" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/ppeccin/WebMSX/stargazers"
@@ -808,7 +808,7 @@
 
   <li>
           <details class="details-reset details-overlay details-overlay-dark d-inline-block float-left">
-            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:36111787,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/index.html&quot;,&quot;user_id&quot;:9093700}}" data-hydro-click-hmac="a46094f8d3450e9d7da571c0b2ca5b15101ba60303940f62b0bda40a43b8c752" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of ppeccin/WebMSX to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:36111787,&quot;originating_url&quot;:&quot;https://github.com/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js&quot;,&quot;user_id&quot;:9093700}}" data-hydro-click-hmac="a5f39b22f8f6a7df5fa99cf7218c6737ad7f3ba69d182fc22041ae642103d8b0" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of ppeccin/WebMSX to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </summary>            <details-dialog
               class="anim-fade-in fast Box Box--overlay d-flex flex-column"
@@ -973,9 +973,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/ppeccin/WebMSX/blob/bdbaa201595f28358f7ad2a57e1846ebca82d705/release/stable/5.4/embedded/index.html">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/ppeccin/WebMSX/blob/bdbaa201595f28358f7ad2a57e1846ebca82d705/release/stable/5.4/embedded/wmsx.js">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:cb6c29c89e1978f85df283ff51171b16 -->
+    <!-- blob contrib key: blob_contributors:v22:cb65d345a76c248f9cd4b8d0daf49fa0 -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -990,7 +990,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/ppeccin/WebMSX/refs/master/release/stable/5.4/embedded/index.html?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/ppeccin/WebMSX/refs/master/release/stable/5.4/embedded/wmsx.js?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
@@ -1006,13 +1006,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="release/stable/5.4/embedded/index.html" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="release/stable/5.4/embedded/wmsx.js" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX"><span>WebMSX</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX/tree/master/release"><span>release</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX/tree/master/release/stable"><span>stable</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX/tree/master/release/stable/5.4"><span>5.4</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX/tree/master/release/stable/5.4/embedded"><span>embedded</span></a></span><span class="separator">/</span><strong class="final-path">index.html</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX"><span>WebMSX</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX/tree/master/release"><span>release</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX/tree/master/release/stable"><span>stable</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX/tree/master/release/stable/5.4"><span>5.4</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/ppeccin/WebMSX/tree/master/release/stable/5.4/embedded"><span>embedded</span></a></span><span class="separator">/</span><strong class="final-path">wmsx.js</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1022,7 +1022,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="release/stable/5.4/embedded/index.html" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="release/stable/5.4/embedded/wmsx.js" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1032,45 +1032,16 @@
 
 
 
-    
-  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
-      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
-        <span class="pr-md-4 f6">
-          <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/ppeccin/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/ppeccin"><img class="avatar" src="https://avatars2.githubusercontent.com/u/714144?s=40&amp;v=4" width="20" height="20" alt="@ppeccin" /></a>
-          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="author" data-hovercard-type="user" data-hovercard-url="/users/ppeccin/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/ppeccin">ppeccin</a>
-            <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="Release 3.4.0" class="link-gray" href="/ppeccin/WebMSX/commit/3c65cf930e0ef4ec7ea78b32f486b977db83947e">Release 3.4.0</a>
-            </span>
-        </span>
-        <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/ppeccin/WebMSX/commit/3c65cf930e0ef4ec7ea78b32f486b977db83947e" data-pjax>3c65cf9</a>
-          <relative-time datetime="2019-07-09T17:19:59Z" class="no-wrap">Jul 9, 2019</relative-time>
-        </span>
+    <include-fragment src="/ppeccin/WebMSX/contributors/master/release/stable/5.4/embedded/wmsx.js" class="Box Box--condensed commit-loader">
+      <div class="Box-body bg-blue-light f6">
+        Fetching contributors&hellip;
       </div>
 
-    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
-      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
-        <summary class="btn-link">
-          <span><strong>1</strong> contributor</span>
-        </summary>
-        <details-dialog
-          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-          aria-label="Users who have contributed to this file"
-          src="/ppeccin/WebMSX/contributors-list/master/release/stable/5.4/embedded/index.html" preload>
-          <div class="Box-header">
-            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-            </button>
-            <h3 class="Box-title">
-              Users who have contributed to this file
-            </h3>
-          </div>
-          <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
-        </details-dialog>
-      </details>
-    </div>
-  </div>
-
+      <div class="Box-body d-flex flex-items-center" >
+        <img alt="" class="loader-loading mr-2" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+        <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+      </div>
+</include-fragment>
 
 
 
@@ -1081,17 +1052,14 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      22 lines (14 sloc)
-      <span class="file-info-divider"></span>
-    453 Bytes
+    3.98 MB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/ppeccin/WebMSX/raw/master/release/stable/5.4/embedded/index.html">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/ppeccin/WebMSX/blame/master/release/stable/5.4/embedded/index.html">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/ppeccin/WebMSX/commits/master/release/stable/5.4/embedded/index.html">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/ppeccin/WebMSX/raw/master/release/stable/5.4/embedded/wmsx.js">Download</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/ppeccin/WebMSX/commits/master/release/stable/5.4/embedded/wmsx.js">History</a>
     </div>
 
 
@@ -1104,13 +1072,7 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/ppeccin/WebMSX/edit/master/release/stable/5.4/embedded/index.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="VepNhMPq/6SkevgDRvqwdg/CM+JSid0K6aVdA2OE5ZfWYG2jiSz2CFnyhYRa71r/DK93kfAFHrcRDMCzmFJBoQ==" />
-            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
-              <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
-            </button>
-</form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/ppeccin/WebMSX/delete/master/release/stable/5.4/embedded/index.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="u2uwbeQTxoY8JI2RJeXBoFbfZX+2d6JYcjJvho20rshWTgJ+ZMoUI0v3KmvkiJ3XB8Yrgtcw5Mbx8T9ul5XucA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/ppeccin/WebMSX/delete/master/release/stable/5.4/embedded/wmsx.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zF34xGXdBE4sue8SfOLGkpdp0w9P9kX3bt78WywWiqOlAHk/WS3pIU5uSd3BnFTMkpXOVESWjkA9oauOjxmMug==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1124,129 +1086,11 @@
 
       
 
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-html ">
-      
-<table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c1>&lt;!DOCTYPE html<span class=pl-kos>&gt;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;</span><span class=pl-ent>html</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>&lt;</span><span class=pl-ent>head</span> <span class=pl-c1>lang</span>=&quot;<span class=pl-s>en</span>&quot;<span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>&lt;</span><span class=pl-ent>meta</span> <span class=pl-c1>charset</span>=&quot;<span class=pl-s>UTF-8</span>&quot;<span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>&lt;</span><span class=pl-ent>title</span><span class=pl-kos>&gt;</span>WebMSX<span class=pl-kos>&lt;/</span><span class=pl-ent>title</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>&lt;</span><span class=pl-ent>meta</span> <span class=pl-c1>name</span>=&quot;<span class=pl-s>description</span>&quot; <span class=pl-c1>content</span>=&quot;<span class=pl-s>WebMSX - The online MSX emulator</span>&quot;<span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>&lt;/</span><span class=pl-ent>head</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>&lt;</span><span class=pl-ent>body</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>&lt;</span><span class=pl-ent>div</span> <span class=pl-c1>id</span>=&quot;<span class=pl-s>wmsx</span>&quot; <span class=pl-c1>style</span>=&quot;<span class=pl-s>text-align: center; margin: 20px auto 0;</span>&quot;<span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>&lt;</span><span class=pl-ent>div</span> <span class=pl-c1>id</span>=&quot;<span class=pl-s>wmsx-screen</span>&quot; <span class=pl-c1>style</span>=&quot;<span class=pl-s>box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);</span>&quot;<span class=pl-kos>&gt;</span><span class=pl-kos>&lt;/</span><span class=pl-ent>div</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>&lt;/</span><span class=pl-ent>div</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>&lt;</span><span class=pl-ent>script</span> <span class=pl-c1>src</span>=&quot;<span class=pl-s>wmsx.js</span>&quot;<span class=pl-kos>&gt;</span><span class=pl-kos>&lt;/</span><span class=pl-ent>script</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>&lt;/</span><span class=pl-ent>body</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;/</span><span class=pl-ent>html</span><span class=pl-kos>&gt;</span></td>
-      </tr>
-</table>
-
-  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
-    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
-      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM13 7.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></svg>
-    </summary>
-    <details-menu>
-      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
-        <li>
-          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
-            Copy lines
-          </clipboard-copy>
-        </li>
-        <li>
-          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
-            Copy permalink
-          </clipboard-copy>
-        </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/ppeccin/WebMSX/blame/bdbaa201595f28358f7ad2a57e1846ebca82d705/release/stable/5.4/embedded/index.html">View git blame</a></li>
-          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/ppeccin/WebMSX/issues/new">Reference in new issue</a></li>
-      </ul>
-    </details-menu>
-  </details>
-
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-text ">
+      <div class="text-center p-3">
+          <a href="/ppeccin/WebMSX/blob/master/release/stable/5.4/embedded/wmsx.js?raw=true">View raw</a>
+            <p>(Sorry about that, but we can’t show files that are this big right now.)</p>
+      </div>
   </div>
 
     </div>
