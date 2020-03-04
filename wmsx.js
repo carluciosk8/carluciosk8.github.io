@@ -9,13 +9,13 @@ WMSX = {
     // Main Setup
     ENVIRONMENT:                     0,                         // 0: Default Emulator Environment. 1..99: Custom User Environment
     CONFIG_URL:                     "",                         // Configuration file to merge. Processed before URL parameters
-    MACHINE:                        "",                         // Machine Type. See Machine Configuration. Leave blank for auto-detection
+    MACHINE:                        "MSX1",                         // Machine Type. See Machine Configuration. Leave blank for auto-detection
     PRESETS:                        "",                         // Configuration Presets to apply. See Presets Configuration
 
     // Full or relative URL of Media files to load
     CARTRIDGE1_URL:                 "",
     CARTRIDGE2_URL:                 "",
-    DISKA_URL:                      "",                         // Image files
+    DISKA_URL:                      "xduel256.dsk",                         // Image files
     DISKB_URL:                      "",
     HARDDISK_URL:                   "",
     DISKA_FILES_URL:                "",                         // File to load into a Disk. For several files, use a ZIP file
