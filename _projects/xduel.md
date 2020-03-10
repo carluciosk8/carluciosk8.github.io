@@ -11,7 +11,9 @@ excerpt: "Foo Bar design system including logo mark, website design, and brandin
 
 <script src="{{ base.url | prepend: site.url }}/assets/js/wmsx.js">
 </script>
+
 <script>
-    WMSX.DISK="assets/js/xduel256.dsk";
+    WMSX.MACHINE = "MSX1";
+    WMSX.DISKA_URL = "assets/js/xduel256.dsk";
 </script>
 
