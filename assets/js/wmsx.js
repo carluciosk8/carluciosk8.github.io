@@ -15,7 +15,7 @@ WMSX = {
     // Full or relative URL of Media files to load
     CARTRIDGE1_URL:                 "",
     CARTRIDGE2_URL:                 "",
-    DISKA_URL:                      "xduel256.dsk",                         // Image files
+    DISKA_URL:                      "",                         // Image files
     DISKB_URL:                      "",
     HARDDISK_URL:                   "",
     DISKA_FILES_URL:                "",                         // File to load into a Disk. For several files, use a ZIP file
