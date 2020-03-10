@@ -9,7 +9,7 @@ WMSX = {
     // Main Setup
     ENVIRONMENT:                     0,                         // 0: Default Emulator Environment. 1..99: Custom User Environment
     CONFIG_URL:                     "",                         // Configuration file to merge. Processed before URL parameters
-    MACHINE:                        "MSX1",                         // Machine Type. See Machine Configuration. Leave blank for auto-detection
+    MACHINE:                        "",                         // Machine Type. See Machine Configuration. Leave blank for auto-detection
     PRESETS:                        "",                         // Configuration Presets to apply. See Presets Configuration
 
     // Full or relative URL of Media files to load
@@ -30,7 +30,7 @@ WMSX = {
     CARTRIDGE2_FORMAT:              "",
 
     // BASIC loading/typing commands. Not needed for AUTOEXEC.BAS, AUTOEXEC.BAT or Tape Images
-    BASIC_RUN:                      "xduel.bas",
+    BASIC_RUN:                      "",
     BASIC_LOAD:                     "",
     BASIC_BRUN:                     "",
     BASIC_BLOAD:                    "",
