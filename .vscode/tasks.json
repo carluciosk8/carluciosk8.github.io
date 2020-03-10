@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Preview Locally",
+            "type": "shell",
+            "command": "bundle exec jekyll serve & process_id=$! & sleep 3 ; '/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe' http://localhost:4000/ ; wait $process_id" ,
+            //"command": "'/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe' http://localhost:4000/ & bundle exec jekyll serve",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
