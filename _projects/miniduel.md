@@ -1,9 +1,7 @@
 ---
-title: "X-tillery Duel"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+title: "Mini Artillery Duel"
+excerpt: "An Artillery Duel clone written in MSX-BASIC 1.0 for the BASIC 10 Liner Contest."
 ---
-
-# Mini Artillery Duel
 
 <div id="wmsx" style="text-align: center; margin: 20px auto 0;">
     <div id="wmsx-screen" style="box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);"></div>
