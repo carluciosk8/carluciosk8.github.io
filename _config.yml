@@ -18,6 +18,7 @@ email: carlucio@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal and portfolio website.
 # twitter_username: username
+github: [metadata]
 github_username: carluciosk8
 repository: "carluciosk8/carluciosk8.github.io"
 minimal_mistakes_skin: dark
@@ -64,7 +65,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/carluciosk8/"
+      url: "https://github.com/carluciosk8"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -74,7 +75,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/carluciosk8/"
+      url: "https://github.com/carluciosk8"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -91,25 +92,27 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: splash
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
+
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: splash
+      author_profile: false
+
   # _projects
   - scope:
-      path: ""
+      path: "_projects"
       type: projects
     values:
-      layout: single
+      layout: splash
       author_profile: false
       share: true
 
