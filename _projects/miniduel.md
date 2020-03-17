@@ -12,13 +12,15 @@ header:
 
 * Like most of the Artillery Games, Mini Artillery Duel has a screen showing a terrain with mountains, valleys and two artillery guns fighting with each other. Player 1 is on the left side and Player 2 is on the right side.
 
-* The game is round based and at each round, the current player adjusts your gun and fire. At the top of Screen, the Game HUD shows the current player, the barrel angle (indicated by letter **B**) and the powder level (indicated by letter **P**).
+* The game is round based and at each round, the current player adjusts your gun and fires. At the top of Screen, the Game HUD shows the current player, the barrel angle (indicated by letter **B**) and the powder level (indicated by letter **P**).
 
 * At each round, the wind speed changes and the only clue for players is the clouds movement in the sky.
 
 * One hit to die!!!
 
 ## Main Game Features:
+
+* Graphics try to look like the ColecoVision version of [Artillery Duel](https://www.youtube.com/watch?v=pbw9qYPxxvQ)
 
 * Random generated playfield terrain and background.
 
