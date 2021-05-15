@@ -1,17 +1,34 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Projects"
-    url: /projects/
-  # - title: "Categories"
-  #   url: /categories/
-  # - title: "Tags"
-  #   url: /tags/
   - title: "About"
     url: /about/
+#  - title: "Posts"
+#    url: /posts/
+  - title: "Portfolio"
+    url: /projects/
 
 projects:
-  - title: "MSX Projects"
+  - title: "Academic Projects"
+    children:
+      - title: "µRISC-II Emulator"
+        url: /projects/urisc
+      - title: "Path Planning"
+        url: /projects/pathplanning
+      - title: "YASG"
+        url: /projects/yasg
+      - title: "Galaxian"
+        url: /projects/galaxian
+      - title: "Flocking"
+        url: /projects/flocking
+      - title: "Ray Tracing"
+        url: /projects/raytracing
+      - title: "Ulam Spiral"
+        url: /projects/ulam
+      - title: "ERD"
+        url: /projects/erd
+      - title: "PSYGEN"
+        url: /projects/psygen
+
+  - title: "Retroprogramming"
     children:
       - title: "Mini Artillery Duel"
         url: /projects/miniduel

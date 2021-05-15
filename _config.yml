@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Carlucio Santos Cordeiro"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Programming, Graphics, Games, Retro and Skateboarding"
+  bio    : "Programming, Graphics, Games and Skateboarding"
   location : "MG - Brazil"
   links:
     - label: "GitHub"
