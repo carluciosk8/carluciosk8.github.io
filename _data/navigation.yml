@@ -1,18 +1,38 @@
 main:
-  - title: "About"
-    url: /about/
+  - title: "Professional"
+    url: /industry/
+  - title: "Academic"
+    url: /projects/
+  - title: "Fun"
+    url: /hobby/
 #  - title: "Posts"
 #    url: /posts/
-  - title: "Portfolio"
-    url: /projects/
+  - title: "About"
+    url: /about/
+
+industry:
+  - title: "Professional Works"
+    url: /industry/
+    children:
+      - title: "Estrada Real Digital"
+        url: /industry/erd
+      - title: "High Precision Systems"
+        url: /industry/exacta
+      - title: "Virtual Training for Eletricians"
+        url: /industry/vtraining
+      - title: "Haul Truck Simulator"
+        url: /industry/yams
 
 projects:
   - title: "Academic Projects"
+    url: /projects/
     children:
       - title: "µRISC-II Emulator"
         url: /projects/urisc
       - title: "Path Planning"
         url: /projects/pathplanning
+      - title: "SDL Chat"
+        url: /projects/sdlchat
       - title: "YASG"
         url: /projects/yasg
       - title: "Galaxian"
@@ -23,12 +43,17 @@ projects:
         url: /projects/raytracing
       - title: "Ulam Spiral"
         url: /projects/ulam
-      - title: "ERD"
-        url: /projects/erd
       - title: "PSYGEN"
         url: /projects/psygen
 
+hobby:
   - title: "Retroprogramming"
     children:
       - title: "Mini Artillery Duel"
-        url: /projects/miniduel
+        url: /hobby/miniduel
+      - title: "Fractals on MSX BASIC"
+        url: /hobby/fracmsx
+  - title: "Skateboarding"
+    children:
+      - title: "Skateboarding"
+        url: /hobby/skateboarding

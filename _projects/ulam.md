@@ -1,5 +1,6 @@
 ---
 title: Ulam Spiral
+year: 2008
 excerpt: "Ulam Spiral"
 layout: single
 classes: wide

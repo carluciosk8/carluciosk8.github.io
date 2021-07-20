@@ -1,5 +1,6 @@
 ---
 title: Flocking
+year: 2006
 excerpt: "Flocking algorithm implemented in C++ and OpenGL 2.0"
 layout: single
 classes: wide

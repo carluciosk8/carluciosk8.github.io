@@ -1,5 +1,6 @@
 ---
 title: "PathPlanning / Pathfinding"
+year: 2002
 excerpt: "Bidirectional A* (A star) algorithm implementation"
 layout: single
 classes: wide

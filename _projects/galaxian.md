@@ -1,5 +1,6 @@
 ---
 title: Galaxian
+year: 2006
 excerpt: "A Galaxian clone written in pure OpenGL 2.0"
 layout: single
 classes: wide
@@ -9,6 +10,8 @@ header:
   teaser: /assets/images/galaxian.png
 ---
 
-YASG stands for Yet Another Scorched Game. This simple artillery game was developed for a Programming Techniques in C++  assignment, from the games development specialization course at UnicenP. The main characteristic of this game is that all graphic elements, like the terrain, players and background are procedurally generated in runtime. Here is a video of the game:
+This is a little game I made for a computer graphics assignment. The task was to create a clone of an old arcade game called Galaxian. The project had some requisites like emulating an analog controller with the mouse: The player must use the mouse to control a "velocity bar" located on the bottom of the screen to control the speed of the space ship to move it.
 
-<iframe iframe width="560" height="315" src="https://www.youtube.com/embed/xr3gjXx8yTQ" frameborder="0"></iframe>
+You can watch the video form the game running here:
+
+<iframe iframe width="560" height="315" src="https://www.youtube.com/embed/eorCAe3QEBQ" frameborder="0"></iframe>
