@@ -1,5 +1,5 @@
 ---
-title: "PathPlanning / Pathfinding"
+title: "PathPlanning / Pathfinding  [2002]"
 year: 2002
 excerpt: "Bidirectional A* (A star) algorithm implementation"
 layout: single

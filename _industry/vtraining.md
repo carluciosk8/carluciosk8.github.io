@@ -1,5 +1,5 @@
 ---
-title: Virtual Training for Eletricians
+title: Virtual Training for Eletricians [2016]
 year: 2016
 excerpt: "Virtual Training for Eletricians"
 layout: single

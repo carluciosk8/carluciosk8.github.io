@@ -3,6 +3,7 @@
 layout: collection
 permalink: /industry/
 collection: industry
+sort_by: year
 entries_layout: grid
 classes: wide
 sidebar:

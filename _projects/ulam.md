@@ -1,5 +1,5 @@
 ---
-title: Ulam Spiral
+title: Ulam Spiral [2008]
 year: 2008
 excerpt: "Ulam Spiral"
 layout: single

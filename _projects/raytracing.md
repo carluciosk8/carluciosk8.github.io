@@ -1,7 +1,7 @@
 ---
-title: Ray Tracing
+title: Ray Tracing [2006]
 year: 2006
-excerpt: "Flocking algorithm implemented in C++ and OpenGL 2.0"
+excerpt: "Very simple parallel raytracer with some procedural textures"
 layout: single
 classes: wide
 sidebar:

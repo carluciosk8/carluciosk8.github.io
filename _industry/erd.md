@@ -1,5 +1,5 @@
 ---
-title: Estrada Real Digital
+title: Estrada Real Digital [2008]
 year: 2008
 excerpt: "A 3rd person adventure game ambiented on a Brazil's beaultiful natural and cultural patrimony"
 layout: single

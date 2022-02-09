@@ -1,5 +1,5 @@
 ---
-title: µRISC-II Emulator
+title: µRISC-II Emulator [2000]
 year: 2000
 excerpt: "A µRISC-II emulator implemented in C using only logic gates abstractions"
 layout: single

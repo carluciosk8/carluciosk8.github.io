@@ -1,5 +1,5 @@
 ---
-title: YASG
+title: YASG [2005]
 year: 2005
 excerpt: "YASG - Yet Another Scorched Game"
 layout: single

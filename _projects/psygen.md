@@ -1,5 +1,5 @@
 ---
-title: PSYGEN
+title: PSYGEN [2009]
 year: 2009
 excerpt: "PSYGEN - Procedural Synthesis Graphics Engine"
 layout: single

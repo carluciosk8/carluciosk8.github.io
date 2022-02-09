@@ -1,5 +1,5 @@
 ---
-title: "SDL Chat"
+title: "SDL Chat [2003]"
 year: 2003
 excerpt: "Room based chat protocol and application implemented in C and SDL"
 layout: single

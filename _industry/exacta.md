@@ -1,5 +1,5 @@
 ---
-title: High Precision Systems
+title: High Precision Systems [2012]
 year: 2012
 excerpt: "Researcher and developer in a high precision guidance System for excavators"
 layout: single

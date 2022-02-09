@@ -1,5 +1,5 @@
 ---
-title: Haul Truck Simulator
+title: Haul Truck Simulator [2019]
 year: 2019
 excerpt: "Haul Truck Simulator"
 layout: single

@@ -1,5 +1,5 @@
 ---
-title: Galaxian
+title: Galaxian [2006]
 year: 2006
 excerpt: "A Galaxian clone written in pure OpenGL 2.0"
 layout: single
