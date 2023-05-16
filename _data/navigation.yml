@@ -53,6 +53,8 @@ hobby:
         url: /hobby/miniduel
       - title: "Fractals on MSX BASIC"
         url: /hobby/fracmsx
+      - title: "Atlantis for MSX"
+        url: /hobby/atlantis
   - title: "Skateboarding"
     children:
       - title: "Skateboarding"
