@@ -4,7 +4,7 @@ main:
   - title: "Academic"
     url: /projects/
   - title: "Fun"
-    url: /hobby/
+    url: /fun/
 #  - title: "Posts"
 #    url: /posts/
   - title: "About"
@@ -46,16 +46,16 @@ projects:
       - title: "PSYGEN"
         url: /projects/psygen
 
-hobby:
+fun:
   - title: "Retroprogramming"
     children:
       - title: "Mini Artillery Duel"
-        url: /hobby/miniduel
+        url: /fun/miniduel
       - title: "Fractals on MSX BASIC"
-        url: /hobby/fracmsx
+        url: /fun/fracmsx
       - title: "Atlantis for MSX"
-        url: /hobby/atlantis
+        url: /fun/atlantis
   - title: "Skateboarding"
     children:
       - title: "Skateboarding"
-        url: /hobby/skateboarding
+        url: /fun/skateboarding

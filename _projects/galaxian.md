@@ -15,3 +15,7 @@ This is a little game I made for a computer graphics assignment. The task was to
 You can watch the video form the game running here:
 
 <iframe iframe width="560" height="315" src="https://www.youtube.com/embed/eorCAe3QEBQ" frameborder="0"></iframe>
+
+<br />
+
+<a href="https://github.com/carluciosk8/galaxian" target="_blank" title="Source code on GitHub"><i class="fab fa-fw fa-github"></i>Source code available on GitHub</a>

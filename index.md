@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 {: .text-justify}
-Welcome to my personal website! 
+Welcome to my website! 
 
 {: .text-justify}
-My name is Carlúcio and here you will find some personal information about me, like a portfolio of my main works.
+Hello all! my name is Carlúcio. This is my portfolio website and here you will find more info about me.

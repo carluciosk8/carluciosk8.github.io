@@ -5,9 +5,9 @@ layout: single
 excerpt: "Atlantis for MSX"
 classes: wide
 header:
-  teaser: /assets/images/hobby/atlantis.png
+  teaser: /assets/images/fun/atlantis.png
 sidebar:
-  nav: hobby
+  nav: fun
 ---
 
 A game published in Gold Disk #4, the coverdisk of [Clube MSX Magazine 14](https://www.clubemsx.com.br/produto/revista-clube-msx-14-en/). The game is a clone of the classic for Atari 2600.
@@ -37,3 +37,7 @@ A game published in Gold Disk #4, the coverdisk of [Clube MSX Magazine 14](https
     WMSX.MACHINE = "MSX1";
     WMSX.CARTRIDGE1_URL = "{{ base.url | prepend: site.url }}/assets/misc/atlantis.rom";
 </script>
+
+<br />
+
+<a href="https://github.com/carluciosk8/atlantis" target="_blank" title="Source code on GitHub"><i class="fab fa-fw fa-github"></i>Source code available on GitHub</a>

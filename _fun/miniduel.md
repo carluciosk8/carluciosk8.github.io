@@ -7,7 +7,7 @@ classes: wide
 header:
   teaser: /assets/images/miniduel.png
 sidebar:
-  nav: hobby
+  nav: fun
 ---
 
 ##  Play it online now:

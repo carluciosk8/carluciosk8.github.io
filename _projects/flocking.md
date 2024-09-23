@@ -10,8 +10,27 @@ header:
   teaser: /assets/images/flocking.png
 ---
 
-This is my implementation of the seminal paper  "boids, flocks & ..." from Craig Reynolds, made for a CG assignement. The requirements were: a 3D world, four cameras (behind the flock, beside the flock, behind the leader boid and one fixated on the ground) and iillumination. In addition to that, i implemented some extra features:  fractal landscapes, fog, pause, animated boids, etc.
+This is my implementation of the seminal paper [Flocks, herds and schools: A distributed behavioral model (from Craig Reynolds)](https://dl.acm.org/doi/10.1145/37401.37406){:target="_blank"} that I made for a computer graphics assignement. The requirements were:
+- 3D world.
+- Simple illumination.
+- A controllable boid acting as a leader.
+- Four cameras:
+  1) Behind the flock
+  2) Beside the flock,
+  3) Behind the leader boid
+  4) Fixed on some point and looking to the flock center.
+  
+In addition to that, I implemented some extra features like: 
+- Fractal landscapes.
+- Fog.
+- Pause.
+- Animated boids.
+- Controls to tweak my flocking algorithm constants.
 
 Here is a video of the program in execution. During the runtime, the user can tweak the various parameters until satisfied with the results.
 
 <iframe iframe width="560" height="315" src="https://www.youtube.com/embed/9_JgACAmQ6A" frameborder="0"></iframe>
+
+<br />
+
+<a href="https://github.com/carluciosk8/flocking" target="_blank" title="Source code on GitHub"><i class="fab fa-fw fa-github"></i>Source code available on GitHub</a>

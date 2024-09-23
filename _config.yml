@@ -91,7 +91,7 @@ collections:
   industry:
     output: true
     permalink: /:collection/:path/
-  hobby:
+  fun:
     output: true
     permalink: /:collection/:path/
 
@@ -134,10 +134,10 @@ defaults:
       author_profile: false
       share: false
 
-  # _hobby
+  # _fun
   - scope:
-      path: "_hobby"
-      type: hobby
+      path: "_fun"
+      type: fun
     values:
       layout: splash
       author_profile: false

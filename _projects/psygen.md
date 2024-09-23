@@ -27,3 +27,7 @@ PSYGEN is a graphics engine that i developed as proof of concept of my master's 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qNZ7O2-qyV4" frameborder="0"></iframe>
+
+<br />
+
+<a href="https://github.com/carluciosk8/psygen" target="_blank" title="Source code on GitHub"><i class="fab fa-fw fa-github"></i>Source code available on GitHub</a>
