@@ -2,7 +2,7 @@
 title: "Mini Artillery Duel"
 year: 2020
 layout: single
-excerpt: "Another artillery game, written in 10 lines of MSX-BASIC 1.0"
+excerpt: "An artillery game written in 10 lines of MSX-BASIC 1.0"
 classes: wide
 header:
   teaser: /assets/images/miniduel.png

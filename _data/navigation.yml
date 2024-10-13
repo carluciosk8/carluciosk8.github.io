@@ -16,12 +16,14 @@ industry:
     children:
       - title: "Estrada Real Digital"
         url: /industry/erd
-      - title: "High Precision Systems"
-        url: /industry/exacta
+      # - title: "High Precision Systems"
+      #   url: /industry/exacta
       - title: "Virtual Training for Eletricians"
         url: /industry/vtraining
       - title: "Haul Truck Simulator"
         url: /industry/yams
+      - title: "Horizon Chase 2"
+        url: /industry/hc2
 
 projects:
   - title: "Academic Projects"

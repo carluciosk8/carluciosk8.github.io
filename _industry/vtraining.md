@@ -1,7 +1,7 @@
 ---
-title: Virtual Training for Eletricians [2016]
+title: Virtual Training for Electricians [2016]
 year: 2016
-excerpt: "Virtual Training for Eletricians"
+excerpt: "An immersive virtual reality system for training electricians"
 layout: single
 classes: wide
 sidebar:
@@ -41,4 +41,5 @@ In this project, I worked as a graphics software engineer in a four member team.
 *Carlúcio Cordeiro, Juliana Paludo, Eduardo Tanaka, Leonardo Domingues, Edgar Gadbem, Adriana Euflausino* – Proceedings of SVR 2015.
 
 # Video about the project:
+
 <iframe src="https://www.youtube.com/embed/T7UIjpXK21M" frameborder="0"></iframe>

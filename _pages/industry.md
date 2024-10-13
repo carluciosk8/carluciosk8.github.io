@@ -1,5 +1,5 @@
 ---
-#title: industry.md title
+title: Relevant Professional Works
 layout: collection
 permalink: /industry/
 collection: industry
@@ -8,6 +8,8 @@ entries_layout: grid
 classes: wide
 sidebar:
   nav: industry
+exclude:
+  exacta.md
 ---
 
 {: .text-justify}
