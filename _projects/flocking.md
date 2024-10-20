@@ -19,10 +19,10 @@ This is my implementation of the seminal paper [Flocks, herds and schools: A dis
 - Simple illumination.
 - A controllable boid acting as a leader.
 - Four cameras:
-  1) Behind the flock
-  2) Beside the flock,
-  3) Behind the leader boid
-  4) Fixed on some point and looking to the flock center.
+  1. Behind the flock
+  2. Beside the flock
+  3. Behind the leader boid
+  4. Fixed on some point and looking to the flock center
   
 In addition to that, I implemented some extra features like: 
 - Fractal landscapes.

@@ -14,7 +14,7 @@ header:
 
 {: .font-size: $type-size-1 }
 
-I developed this project for the final assignment of Computers Networks discipline. We have to design and implement some type of application level protocol and a application using it. I chose to develop this basic, but complete room based chat application. Sadly I can't found the source code but I found an [old build for Windows]({{ base.url | prepend: site.url }}/assets/misc/SDLchat.zip){:target="_blank"}.
+I developed this project for the final assignment of Computers Networks discipline. We have to design and implement some type of application level protocol and a application using it. I chose to develop this basic, but complete room based chat application. Unfortunately I lost the source code but I found an [old build for Windows]({{ base.url | prepend: site.url }}/assets/misc/SDLchat.zip){:target="_blank"}.
 
 Here are a screenshot:
 

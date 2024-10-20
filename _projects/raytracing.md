@@ -31,7 +31,7 @@ gallery:
 
 {: .font-size: $type-size-1 }
 
-This simple parallel raytracer is another Computer Graphics assignment. I personally found it very interesting to develop this project, because I had the opportunity to implement some extra features like procedural textures ([Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise){:target="_blank"} based and [Worley noise](https://en.wikipedia.org/wiki/Worley_noise){:target="_blank"} based). Here are some images generated from my raytracer.
+This simple parallel raytracer is another Computer Graphics assignment. I personally found it very interesting to develop this project, because I had the opportunity to implement some extra features like procedural textures ([Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise){:target="_blank"} based and [Worley noise](https://en.wikipedia.org/wiki/Worley_noise){:target="_blank"} based).
 
 {% include gallery  layout="half"  id="gallery" caption="Some test images rendered with the raytracer" %}
 

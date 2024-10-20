@@ -15,11 +15,10 @@ header:
 {: .font-size: $type-size-1 }
 
 The traditional assignment of [Computer Architecture](https://en.wikipedia.org/wiki/Computer_architecture){:target="_blank"} discipline of my graduation was to implement a [DLX based](https://en.wikipedia.org/wiki/DLX){:target="_blank"} emulator. We had to implement 4 versions:
-
-1) Functional version. (without restriction in implementation)
-2) Functional pipelined version.
-3) Logic version. (restricted to use only basic electronic components abstractions in implementation, basically logic gates and muxes)
-4) Logic pipelined version.
+  1. Functional version. (without restriction in implementation)
+  2. Functional pipelined version.
+  3. Logic version. (restricted to use only basic electronic components abstractions in implementation, basically logic gates and muxes)
+  4. Logic pipelined version.
 
 Besides of these requirements, my version has a improved status screen, showing the assembler mnemonic in execution flowing in the pipeline, pointing also the occurence of forwards and control hazards. Here is a video of the logic pipelined version of the emulator running:
 
