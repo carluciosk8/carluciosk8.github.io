@@ -10,6 +10,10 @@ header:
   teaser: /assets/images/flocking.png
 ---
 
+{: .text-justify}
+
+{: .font-size: $type-size-1 }
+
 This is my implementation of the seminal paper [Flocks, herds and schools: A distributed behavioral model (from Craig Reynolds)](https://dl.acm.org/doi/10.1145/37401.37406){:target="_blank"} that I made for a computer graphics assignement. The requirements were:
 - 3D world.
 - Simple illumination.
@@ -27,7 +31,7 @@ In addition to that, I implemented some extra features like:
 - Animated boids.
 - Controls to tweak my flocking algorithm constants.
 
-Here is a video of the program in execution. During the runtime, the user can tweak the various parameters until satisfied with the results.
+During the runtime, the user can tweak the various parameters until satisfied with the results, as can be seen in the following video:
 
 <iframe iframe width="560" height="315" src="https://www.youtube.com/embed/9_JgACAmQ6A" frameborder="0"></iframe>
 

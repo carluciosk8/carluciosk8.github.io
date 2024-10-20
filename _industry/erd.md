@@ -16,7 +16,9 @@ header:
 
 Estrada Real Digital is a 3rd person adventure game developed on [DCC-UFMG](https://dcc.ufmg.br/laboratorio-multidisciplinar-de-pesquisa-em-jogos/){:target="_blank"} (Computer Science Department - Federal University of Minas Gerais). The game is ambiented on a Brazil's beaultiful natural and cultural patrimony, having locations of historic colonial towns such as Ouro Preto, Diamantina and Tiradentes recreated inside the game and some bosses based on characters of Brazilian folklore, like Boitatá and Mula sem Cabeça.
 
-I was doing my [master's degree]({{ base.url | prepend: site.url }}/projects/psygen) at that time, So my formal title was a researcher. But my real role in this project was a lead developer.
+I was doing my [master's degree]({{ base.url | prepend: site.url }}/projects/psygen) at that time and working as a researcher. One of the challenges of this project is that we have to use only free software on the whole project, then I researched some game engines to help with the development and I found [Panda3D](https://www.panda3d.org){:target="_blank"} very interesting. It fitted all of my restrictions, had a good documentation and It is very easy to learn and use, so It was my choice.
+
+Other challenge was working with people without any experience on game development and game design. The roadmap and screenplay was constantly changing. So, I led the development of a platform with run-time edit and tweak capabilities. This helped with the game design process and gave us the best short paper of SBGames 2008.
 
 # Relevant links:
 

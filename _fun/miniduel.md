@@ -10,6 +10,10 @@ sidebar:
   nav: fun
 ---
 
+{: .text-justify}
+
+{: .font-size: $type-size-1 }
+
 ##  Play it online now:
 
 * Use the joysticks to play:

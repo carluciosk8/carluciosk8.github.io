@@ -27,6 +27,14 @@ gallery:
     title: "rt-marble title"
 ---
 
-This simple raytracer is another Computer Graphics assignment. I personally found it very interesting to develop this project, because I had the opportunity to implement some extra features like procedural textures (perlin noise based and worley noise based). Here are some images generated from my raytracer.
+{: .text-justify}
+
+{: .font-size: $type-size-1 }
+
+This simple parallel raytracer is another Computer Graphics assignment. I personally found it very interesting to develop this project, because I had the opportunity to implement some extra features like procedural textures ([Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise){:target="_blank"} based and [Worley noise](https://en.wikipedia.org/wiki/Worley_noise){:target="_blank"} based). Here are some images generated from my raytracer.
 
 {% include gallery  layout="half"  id="gallery" caption="Some test images rendered with the raytracer" %}
+
+<br />
+
+<a href="https://github.com/carluciosk8/raytracer" target="_blank" title="Source code on GitHub"><i class="fab fa-fw fa-github"></i>Source code available on GitHub</a>

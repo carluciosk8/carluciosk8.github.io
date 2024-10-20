@@ -53,7 +53,7 @@ gallery:
 # Videos
 
 <iframe iframe src="https://www.youtube.com/embed/-UCtv2c483w" frameborder="0"></iframe>
-
+<br />
 <iframe iframe src="https://www.youtube.com/embed/uoSRp3l8Vig" frameborder="0"></iframe>
-
+<br />
 <iframe iframe src="https://www.youtube.com/embed/w8l_MqXh2Kc" frameborder="0"></iframe>

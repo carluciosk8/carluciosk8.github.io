@@ -11,7 +11,10 @@ header:
 ---
 
 {: .text-justify}
-This assignment of algorithms project and analysis discipline has a very simple source code. The challenge here was to derive a O(1) complexity solution for the points of squared spiral from where the prime numbers are assigned to build the Ulam Spiral.
+
+{: .font-size: $type-size-1 }
+
+This assignment of [Algorithms Analysis](https://en.wikipedia.org/wiki/Analysis_of_algorithms){:target="_blank"} discipline has a very simple source code. The challenge here is to derive a O(1) complexity solution for the points to build the [Ulam spiral](https://en.wikipedia.org/wiki/Ulam_spiral){:target="_blank"}.
 
 My solution (x,y) to the point n is:
 
@@ -43,3 +46,7 @@ $$
 Here is a video of the program running for n=999:
 
 <iframe iframe width="512" height="512" src="https://www.youtube.com/embed/eCQwUr_cVT0" frameborder="0"></iframe>
+
+<br />
+
+<a href="https://github.com/carluciosk8/spiral" target="_blank" title="Source code on GitHub"><i class="fab fa-fw fa-github"></i>Source code available on GitHub</a>
